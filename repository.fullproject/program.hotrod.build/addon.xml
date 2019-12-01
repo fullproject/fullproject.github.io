@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="program.hotrod.build" name="Auto Install Build" version="0.0.3" provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary>Auto Skin Kodi</summary>
+		<description lang="en">Auto Install Build.</description>
+		<description lang="pt">Instalação Automática de uma Build.</description>
+		<platform>all</platform>
+  </extension>
+</addon>
